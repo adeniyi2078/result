@@ -1,32 +1,3 @@
- 
-//  function setup(){
-   
-// loadJSON("http://jsonplaceholder.typicode.com/posts",gotData,'jsonp'); 
-//  }
-
-//  function Data(gotData){
-//    console.log(gotData);
-//  }
-
-
-//  const fs = require('fs');
-
-//  fs.writeFile('newfile.json','hello', (err) =>{
-//      if (err) throw err;
-//      console.log('file created sucesfully');
-//  })
-  
-
-
-// const fetch = require('fetch');
-// fetch('http://jsonplaceholder.typicode.com/posts')
-// .then(function(resp){
-
-//     return resp.json();
-// })
-// .then(function(data){
-//     console.log(data);
-// })
 
 const http= require('http')
 const url = "http://jsonplaceholder.typicode.com/posts";
